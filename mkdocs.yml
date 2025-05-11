@@ -1,0 +1,5 @@
+site_name: CNN CIFAR-10 Classifier
+theme:
+  name: material
+nav:
+  - Home: index.md

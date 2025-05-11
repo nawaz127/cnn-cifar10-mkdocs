@@ -1,0 +1,9 @@
+# Correct Kaggle dataset handle
+import kagglehub
+
+# Download datasets using kagglehub with the correct handles
+quanbk_cifar10_path = kagglehub.dataset_download('quanbk/cifar10')
+fashionmnist_path = kagglehub.dataset_download('zalando-research/fashionmnist')  # Corrected handle
+pankrzysiu_cifar10_python_path = kagglehub.dataset_download('pankrzysiu/cifar10-python')
+
+print('Data source import complete.')
